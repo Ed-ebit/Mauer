@@ -2,8 +2,8 @@ public class Rechteck {
 
     public static void main(String[] args) {
 
-       int x = utils.IOTools.readInteger("Bitte Länge der X-Achse in ganzen Zahlen:");
-       int y = utils.IOTools.readInteger("Bitte Länge der Y-Achse in ganzen Zahlen:");
+       int x = utils.IOTools.readInteger("Bitte Länge der x-Achse in ganzen Zahlen:");
+       int y = utils.IOTools.readInteger("Bitte Länge der y-Achse in ganzen Zahlen:");
        System.out.println();
 
        for (int i = 1; i<= y; i++) {
